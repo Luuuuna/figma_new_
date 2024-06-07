@@ -1,0 +1,29 @@
+@media screen and (max-width: 1366px) {
+    .team {
+        .container {
+            padding: 0 15px;
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .team__items {
+        flex-direction: column;
+        align-items:center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    .services__items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header {
+        &__title {
+            font-size: 38px;
+        }
+    }
+}

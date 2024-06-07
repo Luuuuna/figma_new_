@@ -1,0 +1,35 @@
+.servises {
+
+    padding: 102px 0 192px;
+
+    .services__items {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        max-width: 888px;
+        margin: 0 auto;
+
+        .item {
+            width: 280px;
+            height: 108px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__img {
+                align-self: center;
+
+                &_title {
+                    color: $color;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                }
+
+            }
+
+
+        }
+    }
+}
